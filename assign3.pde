@@ -140,9 +140,10 @@ void draw() {
       if(i > 8 && i <= 16){
         for(int j = 40; j <= width; j+= 80){
           for(int k = (i + 2) * ONE_BLOCK - 40; k <= 18 * ONE_BLOCK - 40; k += 80){
+            println("fuck");
             if(j / 80 % 4 == 1 || j / 80 % 4 == 2){
               if(k / 80 % 4 == 1 || k / 80 % 4 == 2){
-                print("hey");
+                println("hey");
                 image(stone1, j, k);
               }
             }
